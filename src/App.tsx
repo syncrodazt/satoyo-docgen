@@ -1,4 +1,3 @@
-import { saveAs } from "file-saver";
 import React, { useState } from "react";
 import {
   Button,
@@ -68,11 +67,6 @@ function App() {
       country,
       scholarshipNumber
     );
-
-    // fetch("src/scripts/generated.docx")
-    //   .then((response) => response.blob())
-    //   .then((blob) => saveAs(blob, "generated.docx"))
-    //   .catch((error) => console.error("Error downloading file:", error));
   };
 
   const handleThemeToggle = () => {

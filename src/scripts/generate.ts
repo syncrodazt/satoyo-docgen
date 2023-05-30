@@ -1,5 +1,5 @@
-import * as Docxtemplater from "docxtemplater";
-import * as PizZip from "pizzip";
+import Docxtemplater from "docxtemplater";
+import PizZip from "pizzip";
 
 export async function generateDocument(
   startDate: any,
