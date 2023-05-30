@@ -24,7 +24,7 @@ export async function generateDocument(
     }
     for (let mi = m_counter; mi <= m_counter_max; mi++) {
       // Loop this
-      const templateResponse = await fetch("/template.docx");
+      const templateResponse = await fetch("/satoyo-docgen/template.docx");
       const templateBuffer = await templateResponse.arrayBuffer();
       const templateFile = new Uint8Array(templateBuffer);
 
