@@ -17,7 +17,7 @@ import { AdapterDayjs } from "@mui/x-date-pickers/AdapterDayjs";
 import { LocalizationProvider } from "@mui/x-date-pickers/LocalizationProvider";
 import { DatePicker } from "@mui/x-date-pickers/DatePicker";
 import { Brightness4 } from "@mui/icons-material";
-import { generateDocument } from "./scripts/generate";
+import { generateDocument } from "./generate";
 
 function App() {
   const [startDate, setStartDate] = useState<Dayjs | null>(dayjs());
